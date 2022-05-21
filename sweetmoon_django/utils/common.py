@@ -9,7 +9,7 @@
 import datetime
 import json
 
-from backend.sweetmoon_django.sweetmoon.settings import DEFAULT_TIME_STR, DEFAULT_DATE_STR
+from sweetmoon_django.sweetmoon.settings import DEFAULT_TIME_STR, DEFAULT_DATE_STR
 
 
 class DatetimeSerializer(json.JSONEncoder):
