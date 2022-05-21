@@ -12,8 +12,8 @@ import time
 
 from django.db import models
 
-from backend.sweetmoon_django.sweetmoon.settings import ALL
-from backend.sweetmoon_django.utils.common import get_cls_attributes
+from sweetmoon_django.sweetmoon.settings import ALL
+from sweetmoon_django.utils.common import get_cls_attributes
 
 
 class CustomInteger(models.IntegerField):
