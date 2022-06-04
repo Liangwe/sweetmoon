@@ -4,7 +4,7 @@
 @Author: Liang
 @Time: 2022/5/15 21:31
 @Github: https://github.com/Liangwe
-@FileName: fied_methos.py
+@FileName: field_methods.py
 @Desc: xxx
 """
 import datetime

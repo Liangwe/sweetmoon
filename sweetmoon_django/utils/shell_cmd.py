@@ -9,10 +9,12 @@
 """
 import subprocess
 
+from sweetmoon_django.utils.logger_method import logger
+
 
 class ShellCmd(object):
     def __init__(self):
-        pass
+        self.logger = logger
 
     def run_cmd(self, cmd):
         """

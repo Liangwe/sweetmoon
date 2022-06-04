@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # add apps
-    'base',
+    'sweetmoon_django.base',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'sweetmoon.urls'
+ROOT_URLCONF = 'sweetmoon_django.sweetmoon.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sweetmoon.wsgi.application'
+WSGI_APPLICATION = 'sweetmoon_django.sweetmoon.wsgi.application'
 
 
 # Database
@@ -122,7 +122,7 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
