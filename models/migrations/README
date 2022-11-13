@@ -1,0 +1,10 @@
+Single-database configuration for Flask.
+
+# 初始化数据库
+flask db init -d models/migrations
+
+# 更新数据库
+flask db upgrade -d models/migrations
+
+# 生成迁移文件
+flask db migrate -d models/migrations
